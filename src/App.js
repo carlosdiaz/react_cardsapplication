@@ -43,7 +43,8 @@ class App extends Component {
               </span>
             </div>
             <div className="card-body">
-              {todo.description}
+              <p>{todo.description}</p>
+              <p>{todo.responsible}</p>
             </div>
             <div className="card-footer">
               <button
@@ -67,7 +68,7 @@ class App extends Component {
             <span className="badge badge-pill badge-light ml-2">
               {this.state.todos.length}
             </span>
-          </a>
+x          </a>
         </nav>
 
         <div className="container">
